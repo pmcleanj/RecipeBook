@@ -1,0 +1,207 @@
+.toptb {
+	border: 2px solid #FFFF66;
+}
+.navb {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #FFFF99;
+	padding: 3px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFF66;
+	border-bottom-color: #FFFF66;
+	border-left-color: #FFFF66;
+	font-weight: bold;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	background-color: #000000;
+
+
+
+}
+.bdleft {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	background-color: #E4E4E4;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	background-position: 0px;
+	vertical-align: top;
+	padding: 3px;
+	font-weight: bold;
+
+
+
+
+
+
+
+}
+.bdmid {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	background-color: #FFFFCC;
+	border: 2px solid #000000;
+	vertical-align: top;
+	padding: 3px;
+
+
+}
+.bdright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	background-color: #E4E4E4;
+	border-top: 2px solid #000000;
+	border-right: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	vertical-align: top;
+	padding: 3px;
+
+
+
+}
+.bdtop {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	background-color: #990000;
+	border-top-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-left-color: #000000;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	padding: 3px;
+	font-weight: bold;
+	color: #FFFF99;
+
+
+
+}
+.worldlist {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #990000;
+}
+.nvlnks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #FFFF99;
+	text-decoration: none;
+}
+a.nvlnks:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #00FF00;
+	text-decoration: none;
+
+}
+.cntrylks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+
+}
+a.cntrylks:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #990000;
+}
+.bdtoplink {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	background-color: #990000;
+	padding: 3px;
+	font-weight: bold;
+	color: #FFCC00;
+}
+.worldlistright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #003399;
+	font-weight: bold;
+
+}
+.cntrylksright {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+a.cntrylksright:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.bdmididx {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	background-color: #FFFF99;
+	vertical-align: top;
+	padding: 3px;
+	font-weight: bold;
+	border: 2px solid #000000;
+
+
+}
+body {
+	margin: 0px;
+}
+.rectitl {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #003399;
+}
+.flgs {  border: #990000; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; text-align: center}
+.glosbld {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold}
+.gloslnks {  font-family: Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: bold; color: #FF9900}
+.rofd {  font-family: Arial, Helvetica, sans-serif; font-size: 12pt; font-style: italic; font-weight: bold; color: #990000}
+.time {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #990000}
+.cookbooks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #003399;
+	font-weight: bold;
+	padding: 2px;
+	border: 1px solid #990000;
+	text-align: center;
+
+
+}
+.wbg {
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+}
+.adbk {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px solid #990000;
+
+}
