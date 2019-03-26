@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>[Happy Campers]: A Plant-Picker Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style-plant-picker-game.css">
+</head>
+	
+<body>
+  <gp-content>
+	  <gp-presentation-rectangle>
+		  	 <gp-inside-rectangle class="active">
+   			 <gp-title>Which plant is poisonous?</gp-title>
+			 <gp-chooser>
+				<img src="cow-parsnip-thumb.jpg" alt="">
+				<img src="giant-hogweed-thumb.jpg" alt="">
+				<img src="water-hemlock-thumb.jpg" alt="">
+			 </gp-chooser>
+			 </gp-inside-rectangle>
+		  
+     		 <gp-inside-rectangle data-autoadvance="1750">
+   			 <gp-title>Which plant is poisonous?</gp-title>
+			 <gp-chooser class="chosen animate">
+				<img src="cow-parsnip-thumb.jpg" alt="">
+				<img class="chosen" src="giant-hogweed-thumb.jpg" alt="">
+				<img src="water-hemlock-thumb.jpg" alt="">
+			 </gp-chooser>
+			 </gp-inside-rectangle>
+		  
+		  <gp-inside-rectangle data-autoadvance="animationend">
+   			 <gp-title>You are right.</gp-title>
+			 <gp-chooser class="fixed">
+				<img src="cow-parsnip-thumb.jpg" alt="">
+				<img class="chosen" src="giant-hogweed-thumb.jpg" alt="">
+				<img src="water-hemlock-thumb.jpg" alt="">
+			 </gp-chooser>
+			 </gp-inside-rectangle>
+		  
+		  <gp-inside-rectangle data-autoadvance="1750">
+   			 <gp-title>Giant Hogweed</gp-title>
+			  <gp-learn class="match">
+				  <img src="giant-hogweed.jpg" alt="">
+				  <ul>
+					<li>One of Canada's most dangerous plants</li>
+					<li>Grows up to 6 meters high</li>
+					<li>Can cause third-degree burns and blindness</li>
+				  </ul>
+			 </gp-learn>
+			 </gp-inside-rectangle>
+		  
+    </gp-presentation-rectangle>
+  </gp-content>
+  <script src="script-plant-picker-game.js"></script>
+</body>
+</html>
+
