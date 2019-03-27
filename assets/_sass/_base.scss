@@ -107,6 +107,10 @@ body	{
 	img {
 	    width: 100%;
 	    }
+	    
+ul {
+	list-style-type: disc;
+	}
 
 
 
@@ -122,8 +126,7 @@ article p {
   text-align: left;
   }
 
-input[type="submit"],
-button {
+input[type="submit"], button {
   border: 0;
   outline: 0;
   }
