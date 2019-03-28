@@ -4,10 +4,11 @@ layout: default
 
  	<h1>{{ page.title }}</h1>
 
-{% for recipe in _RecipeBook %} 
+{% for recipe in site.RecipeBook %} 
 	{% for tag in recipe.tags %} 
-		{% if tag == page.title %}
-			<a href={{recipe}}><h3> recipe.title</h3></a>
+<!-- 	<p>{{page.title}} ~~- {{tag}}</p> -->
+		{% if tag == page.category %}
+			<a class="listOlinks" href={{recipe.url}}> {{recipe.title}} </a>
 		{% endif %}
 	{% endfor %}
 {% endfor %}

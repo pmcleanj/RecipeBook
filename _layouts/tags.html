@@ -2,10 +2,6 @@
 layout: default
 ---
 
-<h2>{{ page.Title }}</h2>
-
-{{ content }}
-
 <!-- create categories array-->
 {% assign categories_array = "" | split:" " %}
 
@@ -17,16 +13,13 @@ layout: default
 {% endfor %}
 
 {% for each_tag in tag_array %}
-	<h5 id="{{each_tag}}">{{each_tag}}</h5>
+	<h4 id="{{each_tag}}"><a href="{{url}}/RecipeBook/{{each_tag}}/">{{each_tag}}<a></h4>
 	{% for recipe in site.RecipeBook %}
 		{% assign has_tag = False %}
 	    {% for tag in recipe.tags %}
 	        {% if tag == each_tag %}
-	    	<li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>
+		    	<p><a class="listOlinks" href="{{ recipe.url }}">{{ recipe.title }}</a></p>
 	        {% endif %}
 	    {% endfor %}
 	{% endfor %}
 {% endfor %}
-
-4444
-
