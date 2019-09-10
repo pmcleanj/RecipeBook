@@ -6,7 +6,6 @@ layout: default
 
 {% for recipe in site.RecipeBook %} 
 	{% for tag in recipe.tags %} 
-<!-- 	<p>{{page.title}} ~~- {{tag}}</p> -->
 		{% if tag == page.category %}
 			<a class="listOlinks" href={{recipe.url}}> {{recipe.title}} </a>
 		{% endif %}
