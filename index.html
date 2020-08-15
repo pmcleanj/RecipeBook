@@ -1,0 +1,34 @@
+---
+bg: "StirUp2018.jpg"
+layout: default
+crawlertitle: "The Logrus Recipe Book"
+title: "The Logrus Recipe Book"
+summary: "main page"
+---
+
+
+<!-- create categories array-->
+{% assign categories_array = "" | split:" " %}
+{% for recipe in site.recipes %}
+    {% for tag in recipe.tags %}
+        {% assign tag_array = tag_array | push: tag | uniq %}
+    {% endfor %}
+{% endfor %}
+{% assign tag_array = tag_array | push: "uncategorized" | uniq %}
+
+{% for each_tag in tag_array %}
+	<h4 id="{{each_tag}}">{{each_tag}}</h4>
+	{% for recipe in site.recipes %}
+
+		{% assign has_tag = False %}
+	    {% for tag in recipe.tags %}
+	        {% assign has_tag = True %}
+	        {% if tag == each_tag %}
+		    	<p><a class="listOlinks" href="{{site.url}}{{ site.baseurl }}{{ recipe.url }}">{{ recipe.title }}</a></p>
+	        {% endif %}
+	    {% endfor %}
+		{% if has_tag == False and each_tag == "uncategorized"%}
+		    <p><a class="listOlinks" href="{{site.url}}{{ site.baseurl }}{{ recipe.url }}">{{ recipe.title }}</a></p>
+		{% endif %}
+	{% endfor %}
+{% endfor %}
